@@ -1,6 +1,7 @@
 .home-content {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    position: relative;
 }
 
 .home-grid-left {
@@ -9,11 +10,67 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.home-grid-left h1 {
+    font-size: 3.4rem;
+}
 .home-grid-right {
-    grid-column: 4 /span 3;
+    grid-column: 5 /span 2;
 }
 
 #home-headshot {
-    width: 50%;
+    width: 85%;
+}
+
+.circle-1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 30%);
+    width: 25rem;
+    height: 25rem;
+    background-color: #CCECFC;
+    border-radius: 50%;
+}
+
+.circle-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-30%, 50%);
+    width: 20rem;
+    height: 20rem;
+    background-color: #CCECFC;
+    border-radius: 50%;
+}
+
+.circle-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-.5rem, -20rem);
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #CCECFC;
+    border-radius: 50%;
+}
+
+.circle-4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(7rem, -14rem);
+    width: 4rem;
+    height: 4rem;
+    background-color: #CCECFC;
+    border-radius: 50%;
+}
+.circle-5 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(1rem, -20rem);
+    width: 5rem;
+    height: 5rem;
+    background-color: #CCECFC;
+    border-radius: 50%;
 }
