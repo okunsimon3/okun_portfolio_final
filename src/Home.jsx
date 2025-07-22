@@ -1,3 +1,4 @@
+import HomeContent from "./components/HomeContent";
 import { NavIcon } from "./components/NavIcon";
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
         <>
         <div className="home-container">
             <NavIcon />
-            <p>hello</p>
+            <HomeContent></HomeContent>
         </div>
         </>
     )

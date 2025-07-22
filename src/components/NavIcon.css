@@ -40,11 +40,11 @@
     flex-direction: column; /* forces vertical stacking */
     gap: 1.5rem; 
 }
-  
+
 .side-menu nav ul {
     margin: 1.5rem 0;
 }
-  
+
 .side-menu nav ul a {
     color: #fff;
     text-decoration: none;

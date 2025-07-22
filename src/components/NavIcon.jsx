@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './NavIcon.css';
 import { NavLink } from 'react-router-dom';
 
-export function NavIcon({ onMediaClick }) {
+export function NavIcon() {
     const [open, setOpen] = useState(false);
 
     const toggleMenu = () => {
