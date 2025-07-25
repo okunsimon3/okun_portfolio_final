@@ -1,0 +1,39 @@
+.about-content {
+    margin-top: 2rem;
+}
+.about-content h1 {
+    font-size: 2.4rem;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+.about-grid-left {
+    grid-column: 2 /span 2;
+}
+.about-grid-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem 0 0 2rem;
+}
+.about-grid-right {
+    grid-column: 4 /span 3;
+    text-align: initial;
+    background-color: #CCECFC;
+    padding: 2rem;
+    border-radius: 0 2rem 2rem 0
+}
+
+.about-grid-right h2 {
+    margin-top: 0;
+}
+
+.about-grid-right p {
+    margin-bottom: 0;
+}

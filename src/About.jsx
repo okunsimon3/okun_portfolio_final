@@ -1,3 +1,4 @@
+import AboutContent from "./components/AboutContent";
 import { NavIcon } from "./components/NavIcon";
 
 export default function About() {
@@ -5,7 +6,7 @@ export default function About() {
         <>
         <div className="about-container">
             <NavIcon />
-            <p>About</p>
+            <AboutContent />
         </div>
         </>
     )
