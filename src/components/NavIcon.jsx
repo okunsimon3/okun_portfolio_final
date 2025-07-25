@@ -21,6 +21,7 @@ export function NavIcon() {
     <nav>
         <ul>
         <NavLink to="/">Home</NavLink>
+        <NavLink to="/work">Work</NavLink>
         <NavLink to="/about">About</NavLink>
         </ul>
     </nav>

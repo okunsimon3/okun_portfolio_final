@@ -5,6 +5,7 @@ import Home from './Home.jsx'
 import About from './About.jsx'
 import './index.css'
 import App from './App.jsx'
+import Work from './Work.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route index element={<Home />}></Route>
       <Route path='/about' element={<About />}></Route>
+      <Route path='/work' element={<Work />}></Route>
     </Routes>
     
     </BrowserRouter>
