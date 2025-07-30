@@ -19,6 +19,7 @@ export default function AboutContent() {
                         <li>Minor in Information Technology</li>
                         <li>Certification in Web Development and Animation</li>
                         <li>GPA: 3.46</li>
+                        <li>Dean's List</li>
                     </ul>
                     <h2>What Inspires Me?</h2>
                     <p>I grew up on the internet — exploring websites, watching videos. Media has been with me throughout my life and has shaped me into the person I am today. I intend to inspire others the way I have been inspired by media.</p>

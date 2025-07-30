@@ -1,0 +1,24 @@
+.work-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.work-card {
+    grid-column: 2/span 5;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #CCECFC;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.work-card img {
+    width: 10%;
+}
+
+.work-card-text {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 2rem;
+}
