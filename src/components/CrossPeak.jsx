@@ -1,6 +1,6 @@
 import GoBack from "./GoBack";
 import '../components/CrossPeak.css'
-import crossPeakLogo from '../assets/CrosspeakLogo_Square.jpg'
+import crossPeakLogo from '../assets/CrosspeakLogo_Square_trans.png'
 
 export default function CrossPeak({onClose}) {
     return (
