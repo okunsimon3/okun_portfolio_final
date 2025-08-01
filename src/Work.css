@@ -9,9 +9,14 @@
     align-items: center;
     padding: 2rem;
     background-color: #CCECFC;
+    border: 2px solid #CCECFC;
     border-radius: 2rem;
     cursor: pointer;
     margin-bottom: 2rem;
+    transition: 0.3s ease;
+}
+.work-card:hover {
+    border: 2px solid #252525;
 }
 .work-card img {
     width: 15%;

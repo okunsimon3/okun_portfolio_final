@@ -2,7 +2,6 @@
     margin-top: 2rem;
 }
 .about-content h1 {
-    font-size: 2.4rem;
     margin: 0;
     margin-bottom: 5rem;
 }
@@ -36,4 +35,18 @@
 
 .about-grid-right p {
     margin-bottom: 0;
+}
+
+.about-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.about-links a {
+    padding: 1rem;
+    background-color: #252525;
+    border-radius: 2rem;
+    color: #CCECFC;
+    transition: .3s ease;
 }

@@ -17,6 +17,8 @@ export default function Work() {
     const [showBearcast, setShowBearcast] = useState(false);
     const [showCopacetic, setShowCopacetic] = useState(false);
 
+    const anyOverlayOpen = showCrossPeak || showEcdi || showBearcast || showCopacetic;
+
     const handleCrossPeakClick = () => {
         setShowCrossPeak(true);
     }
@@ -53,7 +55,7 @@ export default function Work() {
     }, [showCrossPeak, showEcdi, showBearcast, showCopacetic]);
     return (
         <>
-        <NavIcon></NavIcon>
+        <NavIcon overlayOpen={anyOverlayOpen}></NavIcon>
         <h1>My Work</h1>
             <div className="work-wrapper">
                 <div className="work-card" onClick={handleCrossPeakClick}>

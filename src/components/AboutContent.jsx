@@ -1,5 +1,6 @@
 import './AboutContent.css'
 import headshot from '../assets/Okun_Headshot.jpg'
+import okunResume from '../assets/Okun_Resume_2025.pdf'
 
 export default function AboutContent() {
     return (
@@ -23,6 +24,10 @@ export default function AboutContent() {
                     </ul>
                     <h2>What Inspires Me?</h2>
                     <p>I grew up on the internet — exploring websites, watching videos. Media has been with me throughout my life and has shaped me into the person I am today. I intend to inspire others the way I have been inspired by media.</p>
+                    <div className='about-links'>
+                        <a href={okunResume} download>Donwload Resume</a>
+                        <a href='https://www.linkedin.com/in/simonokun/' target='blank'>LinkedIn</a>
+                    </div>
                 </div>
             </div>
         </div>

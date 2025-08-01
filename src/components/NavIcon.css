@@ -1,14 +1,15 @@
 /* Top-right icon */
 .menu-icon {
     position: fixed;
-    top: 1rem;
-    right: 2rem;
-    font-size: 3rem;
+    top: 3rem;
+    right: 1rem;
     cursor: pointer;
     z-index: 1001;
-    padding: 1rem;
-    padding-top: .25rem;
-    padding-bottom: .7rem;
+}
+.nav-icon-img {
+    width: 1.7rem;
+    height: 1.7rem;
+    cursor: pointer;
 }
 
   /* Sidebar */
