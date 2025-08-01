@@ -9,6 +9,7 @@ import './Work.css'
 import Bearcast from "./components/Bearcast";
 import copaceticLogo from './assets/copacetic-Black-Logo.png'
 import Copacetic from "./components/Copacetic";
+import Footer from "./components/Footer";
 
 
 export default function Work() {
@@ -85,6 +86,7 @@ export default function Work() {
                 </div>
                 
             </div>
+            <Footer />
 
             {showCrossPeak && <CrossPeak onClose={handleCloseAll} />}
             {showEcdi && <Ecdi onClose={handleCloseAll} />}

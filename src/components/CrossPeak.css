@@ -13,7 +13,9 @@
     left: 0;
     margin: 2rem;
 }
-
+.go-back:hover {
+    background-color: #CCECFC;
+}
 .cps-title {
     color: white;
     margin-top: 2rem;
@@ -47,6 +49,13 @@
     background-color: #CCECFC;
     padding: 1rem;
     border-radius: 2rem;
+    color: #252525;
+    transition: .3s ease;
+}
+
+.cps-link:hover {
+    background-color: white;
+    color: #252525;
 }
 .cps-media-title {
     grid-column: span 7;

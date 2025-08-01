@@ -14,14 +14,14 @@ export default function Ecdi({onClose}) {
             <div className="ecdi-grid">
                 <img className="ecdi-logo" src={ecdiLogo}/>
                 <div className="ecdi-grid-right">
-                    <p>The Economic and Community Development Institute (ECDI) is one of the top U.S. microlenders providing affordable lending to primarily minority and women owned small businesses in Ohio. Powered by the U.S. Small Business Administration (SBA), ECDI has disbursed $201M in business loans and supported the growth of over 50,000 small businesses since 2004. Duirng my internship with ECDI, I worked directly with small business owners in Cincinnati assisting with:</p>
+                    <p>The Economic and Community Development Institute (ECDI) is one of the top nonprofit U.S. microlenders providing affordable lending to primarily minority and women owned small businesses in Ohio. Powered by the U.S. Small Business Administration (SBA), ECDI has disbursed $201M in business loans and supported the growth of over 50,000 small businesses since 2004. Duirng my internship with ECDI, I worked directly with small business owners in Cincinnati assisting with:</p>
                     <ul>
                         <li>Website Design/Redesign</li>
                         <li>Branding Development</li>
                         <li>Social Media Support</li>
                         <li>On-site Photography</li>
                     </ul>
-                    <p className="ecdi-bottom-text">I gained experience using Salesforce to ensure information gathered during 1:1 consultations was retained. In addition, I ensured communication between myself and the client was always kept as obliged in our mission for small business owners.</p>
+                    <p className="ecdi-bottom-text">I gained experience using Salesforce to ensure information gathered during consultations was retained. In addition, I ensured communication between myself and the client was always kept as obliged in our mission for small business owners.</p>
                     <a href="https://www.ecdi.org/" target="blank" className="ecdi-link">Visit Their Website</a>
                 </div>
                 <div className="ecdi-clients">

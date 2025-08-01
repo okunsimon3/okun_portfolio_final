@@ -14,7 +14,9 @@
     left: 0;
     margin: 2rem;
 }
-
+.go-back:hover {
+    background-color: #CCECFC;
+}
 .bearcast-title {
     color: white;
     margin-top: 2rem;
@@ -42,6 +44,12 @@
     background-color: #CCECFC;
     padding: 1rem;
     border-radius: 2rem;
+    color: #252525;
+}
+
+.bearcast-link:hover {
+    color: #252525;
+    background-color: white;
 }
 .bearcast-grid-right p {
     margin: 0;

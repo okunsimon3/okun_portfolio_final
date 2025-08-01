@@ -56,10 +56,15 @@
 
 .ecdi-link {
     background-color: #CCECFC;
+    color: #252525;
     padding: 1rem;
     border-radius: 2rem;
+    transition: .3s ease;
 }
-
+.ecdi-link:hover {
+    color: #252525;
+    background-color: white;
+}
 .ecdi-clients {
     grid-column: span 7;
     display: grid;

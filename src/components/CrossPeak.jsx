@@ -14,7 +14,7 @@ export default function CrossPeak({onClose}) {
                     <p className="cps-text">CrossPeak Solutions is an international Salesforce partner started in 2017. During my internship at CrossPeak Solutions, I focused on enhancing their online presence in various ways including:</p>
                     <ul>
                         <li>Creating short and long form animated educational videos about Salesforce</li>
-                        <li>Working closely with marketing and development team to ensure all content is accurate and branding requirements were met</li>
+                        <li>Working closely with the marketing and development team to ensure all content is accurate and branding requirements are met</li>
                         <li>Improving Search Engine Optimization (SEO) including updating meta tags, alt text on images, and researching advertisement options</li>
                         <li>Measuring engagement and website traffic using Google Analytics</li>
                         <li>Scheduling posts to ensure consistancy is met on all social media platforms</li>

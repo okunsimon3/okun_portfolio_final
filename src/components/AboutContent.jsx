@@ -23,7 +23,7 @@ export default function AboutContent() {
                         <li>Dean's List</li>
                     </ul>
                     <h2>What Inspires Me?</h2>
-                    <p>I grew up on the internet — exploring websites, watching videos. Media has been with me throughout my life and has shaped me into the person I am today. I intend to inspire others the way I have been inspired by media.</p>
+                    <p>From exploring webpages to watching videos, media has been an integral part of shaping me into the person I am today. It is a powerful tool that can educate, inspire, and make change to the world. I intend to use my skills to create a positive impact and inspire others the same way I have been inspired.</p>
                     <div className='about-links'>
                         <a href={okunResume} download>Donwload Resume</a>
                         <a href='https://www.linkedin.com/in/simonokun/' target='blank'>LinkedIn</a>

@@ -15,7 +15,9 @@
     margin: 2rem;
     padding: 1rem;
 }
-
+.go-back:hover {
+    background-color: #CCECFC;
+}
 .copacetic-title {
     color: white;
     margin-top: 2rem;
@@ -53,8 +55,13 @@
     background-color: #CCECFC;
     padding: 1rem;
     border-radius: 2rem;
+    color: #252525;
+    transition: .3s ease;
 }
-
+.copacetic-link:hover {
+    background-color: white;
+    color: #252525;
+}
 .copacetic-flex {
     display: flex;
     justify-content: space-evenly;

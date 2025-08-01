@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import HomeContent from "./components/HomeContent";
 import { NavIcon } from "./components/NavIcon";
 
@@ -7,6 +8,7 @@ export default function Home() {
         <div className="home-container" style={{overflow: 'hidden'}}>
             <NavIcon />
             <HomeContent></HomeContent>
+            <Footer />
         </div>
         </>
     )
