@@ -12,14 +12,15 @@ export default function Footer() {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/work">Work</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
             </div>
             <div className='footer-contact'>
                 <h2>Contact</h2>
                 <ul>
                     <li><a href='mailto:okunsimon3@gmail.com' target='blank'>okunsimon3@gmail.com</a></li>
-                    <li><a href='https://www.linkedin.com/in/simonokun/' target='blank'>LinkedIn</a></li>
                     <li><a href='tel:18473700720'>(847) 370 - 0720</a></li>
+                    <li><a href='https://www.linkedin.com/in/simonokun/' target='blank'>LinkedIn</a></li>
 
                 </ul>
             </div>

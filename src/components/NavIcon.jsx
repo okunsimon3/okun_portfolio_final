@@ -43,6 +43,7 @@ export function NavIcon( {overlayOpen}) {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/work">Work</NavLink>
         <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         </ul>
     </nav>
     </div>
