@@ -6,12 +6,20 @@
         padding: 2rem;
     }
 
+    .home-grid-left h1 {
+        margin-bottom: 0;
+    }
+
     .circle-1 {
-        transform: translate(50%, 30%);
+        transform: translate(50%, 50%);
     }
 
     .circle-2 {
-        transform: translate(-60%, 50%);
+        transform: translate(-60%, 60%);
+    }
+
+    .circle-4 {
+        display: none;
     }
 
     /* Work */
@@ -41,9 +49,11 @@
         margin: 2rem;
         margin-top: 0;
         padding-top: 0 !important;
-        padding: 2rem;
     }
-
+    h1 {
+        font-size: 2.5rem !important;
+        margin-top: 2.5rem !important;
+    }
     .about-grid-left img {
         border-radius: 2rem !important;
         margin-bottom: 2rem;
@@ -64,7 +74,5 @@
         display: flex !important;
         flex-direction: column;
         margin: 2rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
     }
 }

@@ -100,6 +100,8 @@
     }
     .ecdi-title {
         font-size: 1.5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
     }
     .ecdi-grid-right {
         padding-bottom: 0;
