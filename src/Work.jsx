@@ -6,6 +6,7 @@ import crossPeakLogo from './assets/CrosspeakLogo_Square_trans.png'
 import ecdiLogo from './assets/ECDI-Primary-Logo.png'
 import bearcastLogo from './assets/bearcast_logo.png'
 import './Work.css'
+import './Mobile.css'
 import Bearcast from "./components/Bearcast";
 import copaceticLogo from './assets/copacetic-Black-Logo.png'
 import Copacetic from "./components/Copacetic";

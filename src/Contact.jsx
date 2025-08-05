@@ -1,6 +1,7 @@
 import Footer from './components/Footer'
 import { NavIcon } from './components/NavIcon'
 import './Contact.css'
+import './Mobile.css'
 
 export default function Contact() {
     return (

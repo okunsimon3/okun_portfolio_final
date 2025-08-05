@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    /* Home Page*/
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .circle-1 {
+        transform: translate(50%, 30%);
+    }
+
+    .circle-2 {
+        transform: translate(-60%, 50%);
+    }
+
+    /* Work */
+
+    .work-wrapper .work-card:nth-child(4) {
+
+        display: none;
+    }
+    .work-card {
+        flex-direction: column;
+    }
+
+    .work-card img {
+        width: 50% !important;
+    }
+
+    .work-card-text {
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    /* About Page */
+
+    .about-grid {
+        display: flex !important;
+        flex-direction: column;
+        margin: 2rem;
+        margin-top: 0;
+        padding-top: 0 !important;
+        padding: 2rem;
+    }
+
+    .about-grid-left img {
+        border-radius: 2rem !important;
+        margin-bottom: 2rem;
+    }
+    .about-grid-right {
+        border-radius: 2rem !important;
+    }
+
+    .about-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    /* Contact */
+
+    .contact-grid {
+        display: flex !important;
+        flex-direction: column;
+        margin: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

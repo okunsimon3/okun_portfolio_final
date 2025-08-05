@@ -1,5 +1,6 @@
 import './AboutContent.css'
-import headshot from '../assets/Okun_Headshot.jpg'
+import '../Mobile.css'
+import gradPhoto from '../assets/okun_grad.jpg'
 import okunResume from '../assets/Okun_Resume_2025.pdf'
 
 export default function AboutContent() {
@@ -9,7 +10,7 @@ export default function AboutContent() {
             <h1>About Me</h1>
             <div className="about-grid">
                 <div className="about-grid-left">
-                    <img src={headshot}/>
+                    <img src={gradPhoto} alt='photo of Simon and friend during college graduation'/>
                 </div>
                 <div className='about-grid-right'>
                     <h2>Education</h2>

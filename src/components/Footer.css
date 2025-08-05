@@ -25,3 +25,10 @@
 .footer-wrapper a {
     color: #CCECFC;
 }
+
+@media (max-width: 768px) {
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
