@@ -1,6 +1,6 @@
 import './AboutContent.css'
 import '../Mobile.css'
-import gradPhoto from '../assets/okun_grad.jpg'
+import gradPhoto from '../assets/PhotoSimonGradAccept.jpg'
 import okunResume from '../assets/Okun_Resume_2025.pdf'
 
 export default function AboutContent() {

@@ -11,11 +11,12 @@ export default function Bearcast({onClose}) {
             <div className="bearcast-grid">
                 <img className="bearcast-logo" src={bearcastLogoTall}/>
                 <div className="bearcast-grid-right">
-                    <p>Bearcast Media is a student-led organization created by students for students. There is opportunity for students to gain hands-on experience, use equipment funded by the university,  and network with current students and alumni. I started attending Bearcast general body meetings and eventually became the web director. As web director, my responsibilities included:
+                    <p>Bearcast Media is a student-led organization at the University of Cincinnati, created by students for students. Bearcast Media provides opportunity for students to gain hands-on experience, use equipment funded by UC, and network with current students and alumni. I joined Bearcast Media during my sophmore year, and eventually became the web director. During my two years as web director, I was responsible for:
                     </p>
                     <ul>
                         <li>Redesigning the Wordpress website including mobile optimization</li>
                         <li>Adding features including post filters based on categories and a contact form</li>
+                        <li>Seeking feedback from students to improve the website</li>
                         <li>Search Engine Optimization (SEO)</li>
                         <li>Attending weekly director and general body meetings</li>
                         <li>Ensuring content is uploaded from other directors (sports, journalism, podcasts, etc)</li>

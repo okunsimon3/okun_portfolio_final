@@ -22,7 +22,7 @@ export default function Copacetic({onClose}) {
                     loop
                 />
                 <div className="copacetic-grid-right">
-                    <p>Copacetic Media, LLC is a collaborative senior capstone project between myself and my friend Aidan Horstmeier. Our project was both a showcase of our media work as well as the building block of our media production limited liability company. I was primarily in charge of developing the website using React.js while Aidan focused more on branding development, registering with the state of Ohio, and social media. This website showcases our skills in:</p>
+                    <p>Copacetic Media, LLC, is a collaborative senior capstone project between myself and my friend, Aidan Horstmeier. Our project was both a showcase of our media work as well as the building block of our media production limited liability company. I was primarily in charge of developing the website using React.js while Aidan focused on branding development, registering with the state of Ohio, and graphic design. This website showcases our skills in:</p>
                     <ul>
                         <li>Graphic Design/Web Design</li>
                         <li>Motion Graphics/Animation</li>
