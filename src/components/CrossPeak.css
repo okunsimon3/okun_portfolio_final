@@ -118,7 +118,7 @@
         margin: 0;
     }
     .cps-title {
-        font-size: 2rem;
+        font-size: 1.5rem !important;
         margin-left: 4rem;
         margin-right: 4rem;
     }

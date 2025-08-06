@@ -1,6 +1,6 @@
 import './HomeContent.css';
 import '../Mobile.css'
-import Headshot from '../assets/okun_headshot.png';
+import Headshot from '../assets/okun_headshot-2.jpg';
 
 export default function HomeContent() {
     return (
