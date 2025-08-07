@@ -28,13 +28,13 @@ export default function Contact() {
                     <div>
                         <h3 className='contact-first-text'>First Name</h3>
                         <label>
-                            <input type="text" name="first-name" />
+                            <input type="text" name="first-name" required/>
                         </label>
                     </div>
                     <div>
                         <h3>Email</h3>
                         <label>
-                            <input type="email" name="email" />
+                            <input type="email" name="email" required/>
                         </label>
                     </div>
                     <div>
