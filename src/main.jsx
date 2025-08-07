@@ -8,6 +8,7 @@ import App from './App.jsx'
 import Work from './Work.jsx'
 import Contact from './Contact.jsx'
 import NotFound from './components/NotFound.jsx'
+import Success from './Success.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/about' element={<About />}></Route>
       <Route path='/work' element={<Work />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
+      <Route path="/success" element={<Success />} />
       <Route path='*' element={<NotFound />}></Route>
     </Routes>
     
