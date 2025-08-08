@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/work' element={<Work />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
       <Route path="/success" element={<Success />} />
-      {/* <Route path='*' element={<NotFound />}></Route> */}
+      <Route path='*' element={<NotFound />}></Route>
     </Routes>
     
     </BrowserRouter>

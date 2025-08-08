@@ -3,39 +3,68 @@ import { NavIcon } from './components/NavIcon'
 import './Contact.css'
 import './Mobile.css'
 
-const Contact = () => (
-    <div className="contact-page">
-        <NavIcon />
-        <div className='contact-container'>
-            <div className='contact-left'>
-                <h1>Get In Touch</h1>
-            </div>
-            <form className='contact-form' 
-            name='contact'
-            method='POST'
-            data-netlify='True'
-            action="/success"
-            >
-                <input type="hidden" name="form-name" value="contact" />
-                <div>
-                    <label>First Name
-                        <input type="text" name="first-name" />
-                    </label>
-                </div>
-                <div>
-                    <label>Email
-                        <input type="email" name="email" />
-                    </label>
-                </div>
-                <div>
-                    <label>More Info
-                        <textarea name="message"></textarea>
-                    </label>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </div>
-);
+export default function Contact() {
 
-export default Contact;
+    // const handleSubmit = event => {
+    // event.preventDefault();
+
+    // const myForm = event.target;
+    // const formData = new FormData(myForm);
+
+    // fetch("/", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //     body: new URLSearchParams(formData).toString()
+    // })
+    //     .then(() => console.log("Form successfully submitted"))
+    //     .catch(error => alert(error));
+    // };
+
+    // document.querySelector("form").addEventListener("submit", handleSubmit);
+
+    return (
+        <>
+        <NavIcon />
+        <h1>Contact</h1>
+        <div className="contact-grid">
+            <div className="contact-grid-left">
+                <h2>Get In Touch</h2>
+                <ul>
+                    <li><a href='mailto:okunsimon3@gmail.com' target='blank'>okunsimon3@gmail.com</a></li>
+                    <li><a href='tel:18473700720'>(847) 370 - 0720</a></li>
+                    <li><a href='https://www.linkedin.com/in/simonokun/' target='blank'>LinkedIn</a></li>
+                </ul>
+            </div>
+            <div className="contact-grid-right">
+                <form className='contact-form' 
+                    name='contact'
+                    method='POST'
+                    data-netlify="true"
+                >
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div>
+                        <h3 className='contact-first-text'>First Name</h3>
+                        <label>
+                            <input type="text" name="first-name" required/>
+                        </label>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <label>
+                            <input type="email" name="email" required/>
+                        </label>
+                    </div>
+                    <div>
+                        <h3>More Info</h3>
+                        <label>
+                            <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <Footer />
+        </>
+    )
+}
