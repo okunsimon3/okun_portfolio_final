@@ -8,7 +8,7 @@ import App from './App.jsx'
 import Work from './Work.jsx'
 import Contact from './Contact.jsx'
 import NotFound from './components/NotFound.jsx'
-import Success from './Success.jsx'
+import Success from './components/Success.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
