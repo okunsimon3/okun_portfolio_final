@@ -21,8 +21,7 @@ export default function Contact() {
                 <form className='contact-form' 
                     name='contact'
                     method='POST'
-                    data-netlify='true'
-                    onSubmit="submit"
+                    data-netlify='True'
                     action="/success"
                 >
                     <input type="hidden" name="form-name" value="contact" />
