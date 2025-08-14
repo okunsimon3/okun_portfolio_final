@@ -2,7 +2,7 @@
 .menu-icon {
     position: fixed;
     top: 3rem;
-    right: 2rem !important;
+    right: 2rem;
     cursor: pointer;
     z-index: 1001;
 }

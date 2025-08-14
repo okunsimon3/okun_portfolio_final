@@ -31,7 +31,7 @@ export default function Copacetic({onClose}) {
                         <li>Photography/Videography</li>
                     </ul>
                     <div className="copacetic-flex">
-                        <a className="copacetic-link"href="https://copacetic.live/" target="blank">Visit Our Website</a>
+                        <a className="copacetic-link"href="https://copaceticmedia.netlify.app/" target="blank">Visit Our Website</a>
                     </div>
                     
                 </div>
