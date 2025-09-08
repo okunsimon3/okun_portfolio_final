@@ -26,7 +26,7 @@ export default function AboutContent() {
                     <h2>What Inspires Me?</h2>
                     <p>From exploring webpages to watching videos, media has been an integral part of shaping me into the person I am today. It is a powerful tool that can educate, inspire, and make change to the world. I intend to use my skills to create a positive impact and inspire others the same way I have been inspired.</p>
                     <div className='about-links'>
-                        <a href={okunResume} download>Donwload Resume</a>
+                        <a href={okunResume} download>Download Resume</a>
                         <a href='https://www.linkedin.com/in/simonokun/' target='blank'>LinkedIn</a>
                     </div>
                 </div>
