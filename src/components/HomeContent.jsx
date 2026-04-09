@@ -8,7 +8,7 @@ export default function HomeContent() {
             <div className="home-content">
                 <div className="home-grid-left">
                     <h1>Simon Okun</h1>
-                    <h2>Communications Coordinator</h2>
+                    <h2>Communications Specialist</h2>
                 </div>
                 <div className="home-grid-right">
                     <img src={Headshot} id='home-headshot' />
