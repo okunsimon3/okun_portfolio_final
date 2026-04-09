@@ -8,10 +8,10 @@ export default function HomeContent() {
             <div className="home-content">
                 <div className="home-grid-left">
                     <h1>Simon Okun</h1>
-                    <h2>Digital Marketing Specialist</h2>
+                    <h2>Communications Coordinator</h2>
                 </div>
                 <div className="home-grid-right">
-                    <img src={Headshot} id='home-headshot'/>
+                    <img src={Headshot} id='home-headshot' />
                 </div>
             </div>
             <div className='circle-1'></div>
